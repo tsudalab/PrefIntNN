@@ -7,13 +7,13 @@ This is an extension of our previous Gaussian process-based package [PrefInt](ht
 
 ## Installation
 To deploy the package, please create or update the environment first with anaconda or miniconda:
-```console
+```sh
 conda env create -f dpdi.yaml
 
 conda env update -n your-env --file dpdi.yml
 ```
 Clone the repository by:
-```console
+```sh
 git clone https://github.com/tsudalab/PrefIntNN.git
 
 cd PrefIntNN
