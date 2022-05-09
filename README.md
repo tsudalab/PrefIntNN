@@ -1,5 +1,5 @@
 # PrefIntNN
-A neural network for integrating data via pairwise loss function. The PrefIntNN package provides a neural network-based way of integrating data via learning pairwise relations. Please check our paper at:https://pubs.acs.org/doi/10.1021/acsmedchemlett.1c00439.    
+A neural network for integrating data via pairwise loss function. The PrefIntNN package provides a neural network-based way of integrating data via learning pairwise relations. Please check our paper at: https://pubs.acs.org/doi/10.1021/acsmedchemlett.1c00439.    
 This is an extension of our previous Gaussian process-based package [PrefInt](https://github.com/tsudalab/PrefInt).
 # Tutorial
 The model requires specific form of data input. For data preparation, please check: [tutorial](https://github.com/tsudalab/PrefIntNN/blob/master/Data_Preparation_Tutorial.ipynb)    
