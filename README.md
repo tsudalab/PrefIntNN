@@ -14,9 +14,16 @@ scikit-learn = 1.0.2
 To deploy the package, please create or update the environment first with anaconda or miniconda:
 ```sh
 conda env create -f dpdi.yaml
-
+```
+or
+```
 conda env update -n your-env --file dpdi.yml
 ```
+Activate the enviroment:
+```sh
+conda activate dpdi
+```
+
 Clone the repository by:
 ```sh
 git clone https://github.com/tsudalab/PrefIntNN.git
