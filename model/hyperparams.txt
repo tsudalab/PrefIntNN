@@ -1,0 +1,15 @@
+Study statistics: 
+  Number of finished trials:  30
+  Number of pruned trials:  18
+  Number of complete trials:  12
+Best trial:
+  Value:  0.7761547646680175
+  Params: 
+    n_layers: 2
+    n_units_l0: 195
+    dropout_l0: 0.18367843353165392
+    n_units_l1: 702
+    dropout_l1: 0.3261385112727069
+    optimizer: Adam
+    lr: 0.0017381438595038166
+    batchsize: 16
