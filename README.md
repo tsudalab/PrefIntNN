@@ -45,3 +45,6 @@ A hyperparamters tuning script via [Optuna](https://optuna.org/) is also provide
 
 ## License
 The PrefIntNN package is licensed under the MIT "Expat" License.
+
+## Contact
+Xiaolin SUN ([sunxiaolin324@163.com])
