@@ -1,5 +1,8 @@
 # PrefIntNN
-A neural network for integrating data via pairwise loss function. The PrefIntNN package provides a neural network-based way of integrating data via learning pairwise relations. Please check our paper at: https://pubs.acs.org/doi/10.1021/acsmedchemlett.1c00439.    
+A neural network for integrating data via pairwise loss function.    
+
+The PrefIntNN package provides a neural network-based way of integrating data via learning pairwise relations. Please check our paper at: https://pubs.acs.org/doi/10.1021/acsmedchemlett.1c00439.       
+
 This is an extension of our previous Gaussian process-based package [PrefInt](https://github.com/tsudalab/PrefInt).
 
 ## Requirements
@@ -32,10 +35,12 @@ cd PrefIntNN
 ```
 Then you are ready to check and run the tutorials notebooks.
 
-## Run DPDI Tutorial
+## DPDI running Tutorials
 The model requires specific form of data input. For data preparation, please check: [data_preparation_tutorial](https://github.com/tsudalab/PrefIntNN/blob/master/Data_Preparation_Tutorial.ipynb).    
 
 The model is implemented via Pytorch. For training model, please refer to: [Model_Training_Prediction Tutorial](https://github.com/tsudalab/PrefIntNN/blob/master/Model_Training_and_Prediction.ipynb).
+
+A hyperparamters tuning script via [Optuna](https://optuna.org/) is also provided.
 
 ## License
 The PrefIntNN package is licensed under the MIT "Expat" License.
