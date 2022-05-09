@@ -3,12 +3,12 @@ A neural network for integrating data via pairwise loss function. The PrefIntNN 
 This is an extension of our previous Gaussian process-based package [PrefInt](https://github.com/tsudalab/PrefInt).
 
 ## Requirements
-Python = 3.7
-numpy = 1.21.5
-pandas = 1.3.4
-rdkit = 2020.09.1.0
-pytorch = 1.11.0
-scikit-learn = 1.0.2
+Python = 3.7    
+numpy = 1.21.5    
+pandas = 1.3.4    
+rdkit = 2020.09.1.0    
+pytorch = 1.11.0    
+scikit-learn = 1.0.2    
 
 ## Installation
 To deploy the package, please create or update the environment first with anaconda or miniconda:
