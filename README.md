@@ -15,7 +15,15 @@ pytorch = 1.11.0
 scikit-learn = 1.0.2    
 
 ## Installation
-To deploy the package, please create or update the environment first with anaconda or miniconda:
+
+Clone the repository by:
+```sh
+git clone https://github.com/tsudalab/PrefIntNN.git
+
+cd PrefIntNN
+```
+
+To deploy the package, please create or update the environment with anaconda or miniconda:
 ```sh
 conda env create -f dpdi.yaml
 ```
@@ -28,12 +36,6 @@ Activate the enviroment:
 conda activate dpdi
 ```
 
-Clone the repository by:
-```sh
-git clone https://github.com/tsudalab/PrefIntNN.git
-
-cd PrefIntNN
-```
 Then you are ready to check and run the tutorials notebooks.
 
 ## DPDI running Tutorials
