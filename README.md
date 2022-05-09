@@ -1,7 +1,7 @@
 # PrefIntNN
-A neural network for integrating data via pairwise loss function.    
 
-The PrefIntNN package provides a neural network-based way of integrating data via learning pairwise relations. Please check our paper at: https://pubs.acs.org/doi/10.1021/acsmedchemlett.1c00439.       
+## DPDI
+This package provides a neural network-based method of integrating data via learning pairwise relations named DPDI. Please check our paper at: https://pubs.acs.org/doi/10.1021/acsmedchemlett.1c00439.       
 
 This is an extension of our previous Gaussian process-based package [PrefInt](https://github.com/tsudalab/PrefInt).
 
