@@ -1,5 +1,4 @@
-# PrefIntNN
-## Deep Preference Data Integration (DPDI)
+# Deep Preference Data Integration (DPDI)
 DPDI package provides a neural network-based method of integrating data via learning pairwise relations. 
 For integrating outcome variables of different assay types, a surrogate variable is introduced, and a neural network is trained such that the total order induced by the surrogate variable is maximally consistent with given data sets. By integrating multiple data sets into surrogate values, the number of samples used in statistical analysis is increased, leading to more conclusive results.
 
