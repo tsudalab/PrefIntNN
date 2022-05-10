@@ -2,10 +2,8 @@
 DPDI package provides a neural network-based method of integrating data via learning pairwise relations. 
 For integrating outcome variables of different assay types, a surrogate variable is introduced, and a neural network is trained such that the total order induced by the surrogate variable is maximally consistent with given data sets. By integrating multiple data sets into surrogate values, the number of samples used in statistical analysis is increased, leading to more conclusive results.
 
-<img src="https://pubs.acs.org/cms/10.1021/acsmedchemlett.1c00439/asset/images/large/ml1c00439_0006.jpeg" alt="drawing" width="200"/>
-<img src="https://pubs.acs.org/cms/10.1021/acsmedchemlett.1c00439/asset/images/large/ml1c00439_0006.jpeg" width=50% height=50%>
+<img src="https://pubs.acs.org/cms/10.1021/acsmedchemlett.1c00439/asset/images/large/ml1c00439_0006.jpeg" width=70% height=70%>
 
-![DPDI](https://pubs.acs.org/cms/10.1021/acsmedchemlett.1c00439/asset/images/large/ml1c00439_0006.jpeg =250x)
 For details, please check our paper at: https://pubs.acs.org/doi/10.1021/acsmedchemlett.1c00439.       
 
 This is an extension of our previous Gaussian process-based package [PrefInt](https://github.com/tsudalab/PrefInt).
