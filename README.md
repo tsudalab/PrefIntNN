@@ -2,7 +2,7 @@
 DPDI package provides a neural network-based method of integrating data via learning pairwise relations. 
 For integrating outcome variables of different assay types, a surrogate variable is introduced, and a neural network is trained such that the total order induced by the surrogate variable is maximally consistent with given data sets. By integrating multiple data sets into surrogate values, the number of samples used in statistical analysis is increased, leading to more conclusive results.
 
-<img src="https://pubs.acs.org/cms/10.1021/acsmedchemlett.1c00439/asset/images/large/ml1c00439_0006.jpeg" >
+<img src="https://pubs.acs.org/cms/10.1021/acsmedchemlett.1c00439/asset/images/large/ml1c00439_0006.jpeg" width=90% height=90%>
 
 For details, please check our paper at: https://pubs.acs.org/doi/10.1021/acsmedchemlett.1c00439.       
 
