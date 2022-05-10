@@ -39,9 +39,9 @@ conda activate dpdi
 Then you are ready to check and run the tutorials notebooks.
 
 ## DPDI running Tutorials
-The model requires specific form of data input. For data preparation, please check: [Data_Preparation_tutorial](https://github.com/tsudalab/PrefIntNN/blob/master/Data_Preparation_Tutorial.ipynb).    
+The model requires specific form of data input. For data preparation, please check: [Data_Preparation_tutorial](https://github.com/tsudalab/PrefIntNN/blob/master/Tutorials/Data_Preparation_Tutorial.ipynb).    
 
-The model is implemented via Pytorch. For training model, please refer to: [Model_Training_Prediction Tutorial](https://github.com/tsudalab/PrefIntNN/blob/master/Model_Training_and_Prediction.ipynb).
+The model is implemented via Pytorch. For training model, please refer to: [Model_Training_Prediction Tutorial](https://github.com/tsudalab/PrefIntNN/blob/master/Tutorials/Model_Training_and_Prediction.ipynb).
 
 A hyperparamters tuning script via [Optuna](https://optuna.org/) is also provided.
 
