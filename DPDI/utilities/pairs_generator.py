@@ -14,7 +14,7 @@ class PairsGenerator():
         for assay in self.df['assay'].unique():
             subset = self.df[self.df['assay']==assay]
             prefs_subset = self.full_generator(subset)
-
+            #print (assay,prefs_subset)
             if prefs_subset: #subset data larger than 2 has vlidate subset pairs
                 
                 if len(self.prefs) == 0: #if first generation
@@ -22,6 +22,7 @@ class PairsGenerator():
 
                 else:
                     for i in range(4):
+                        #print(self.prefs[i],prefs_subset[i])
                         self.prefs[i] = np.r_[self.prefs[i],prefs_subset[i]]
         if verbost == 1:
             print('The number of identical assay group is:',len(self.df['assay'].unique()))
@@ -55,6 +56,10 @@ class PairsGenerator():
                     x2.append(x[i])
                     y1.append(y[j])
                     y2.append(y[i])
+
+        if not len(x1): #for the case that all molecule has same affinity
+            return 0
+
         if not reverse:
             prefs_subset = [np.array(x1),np.array(x2),np.array(y1),np.array(y2)]
         else:
